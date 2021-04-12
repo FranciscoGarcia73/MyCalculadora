@@ -1,0 +1,39 @@
+.Boton {
+    background: #cad2c5;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    height: 20%;
+    min-width: 24%;
+}
+
+.Boton[data-size="entero"] {
+    height: 25%;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.Boton[data-size="medioentero"] {
+    height: 25%;
+    width: 49%;
+    margin: 10px 0 10px 0;
+}
+.Boton[data-size="operacion"] {
+    height: 20%;
+    width: 24.7%;
+    margin: 10px 0 10px 0;
+}
+
+.Boton[data-value="null"] {
+    pointer-events: none;
+}
+
+.Boton:hover {
+    background: #d7ddd3;
+    cursor: default;
+}

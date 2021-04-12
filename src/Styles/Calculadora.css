@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Calculadora {
+    width: 244px;
+    height: 395px;
+    position: relative;
+    margin: 25px;
+    background-color: lightcoral;
+    padding: 20px;
+}

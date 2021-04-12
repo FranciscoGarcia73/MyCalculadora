@@ -1,0 +1,7 @@
+.Teclado {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    flex-direction: row;
+    margin-left: -1px;
+}
