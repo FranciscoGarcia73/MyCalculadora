@@ -13,7 +13,7 @@ class Calculadora extends Component {
   calculate = () => {
     const result = eval(this.state.data);
     if (result === undefined) {
-      this.setState({ data: "No hay valores" });
+      this.setState({ data: "Error: No hay valores" });
     } else {
       this.setState({ data: result });
     }
@@ -95,8 +95,6 @@ class Calculadora extends Component {
             size="medioentero"
             value="."
           />
-
-          {/* <Boton onClick={this.handleClick} label="" value="null" /> */}
 
           <Boton
             onClick={this.handleClick}
