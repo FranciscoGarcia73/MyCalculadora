@@ -17,13 +17,6 @@ class Calculadora extends Component {
     } else {
       this.setState({ data: result });
     }
-
-    // try {
-    //     const result = eval(this.state.data);
-    //     this.setState({data: result});
-    // } catch (e) {
-    //     this.setState({data: 'error'})
-    // }
   };
 
   handleClick = (e) => {
